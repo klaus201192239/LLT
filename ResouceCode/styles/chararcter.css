@@ -1,0 +1,78 @@
+section {
+	display: block;
+	position: relative;
+
+	padding: 10px;
+	margin-top: 30px;
+}
+
+section:nth-child(n) {
+	background: #000;
+}
+
+section:nth-child(2n) {
+	background: #aaa;
+}
+
+section:nth-child(3n) {
+	background: #921;
+}
+
+.clips {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: rgba(200,100,200,0.8);
+
+	margin: 0 10px;
+	box-shadow: 1px 1px 1px #222;
+	cursor: pointer;
+
+	text-align: center;
+}
+
+.clip-button {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+aside {
+	position: fixed;
+	top: 350px;
+	left: 650px;
+	z-index: 99;
+}
+
+.procedure-title {
+	position: absolute;
+	top: 20px;
+	left : 30px;
+
+	background: #111;
+	padding: 10px 40px;
+	font-size: 1em;
+	color: #aaa;
+	text-shadow: 0 1px 0px #414141;
+
+	border: 1px solid #332299;
+}
+
+.procedure-img {
+	width: 100%;
+	border-radius: 6px;
+	box-shadow: 0 8px 4px #999;
+}
+
+.procedure-description {
+	position: absolute; 
+	bottom: 50px;
+	left: 50px;
+	
+	display: block;
+	background: rgba(200,200,200,0.5);
+	padding: 20px 50px;
+	width: 800px;
+
+	font-size: 2em;
+}

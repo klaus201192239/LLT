@@ -1,0 +1,10 @@
+﻿body 
+{
+	font-size:small;
+}
+A:link { FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none }
+A:visited { FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none }
+A:hover { FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: underline }
+A.Link_Pager:link { FONT-SIZE: 12px; COLOR: #48A7EF; TEXT-DECORATION: underline }
+A.Link_Pager:visited { FONT-SIZE: 12px; COLOR: #48A7EF; TEXT-DECORATION: underline }
+A.Link_Pager:hover { FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: underline }
